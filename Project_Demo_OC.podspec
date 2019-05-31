@@ -8,11 +8,11 @@ Pod::Spec.new do |s|
                     this is Project_Demo_OC
                    DESC
 
-  s.homepage     = 'http://10.10.64.118/ios_PurangBrightSunnySky/BProject_Demo_OC'
+  s.homepage     = '__HomePage__'
   s.license      = { :type => 'MIT', :file => 'FILE_LICENSE' }
-  s.author       = 'PURANG'
+  s.author       = 'wanglei'
   s.platform     = :ios, '8.0'
-  s.source       = { :git => 'http://10.10.64.118/ios_PurangBrightSunnySky/BProject_Demo_OC.git', :tag => s.version.to_s }
+  s.source       = { :git => '__HTTPSRepo__', :tag => s.version.to_s }
 
 s.prefix_header_contents = '#import "Masonry.h"','#import "YYModel.h"','#import "SDWebImageManager.h"','#import "UIImageView+WebCache.h"','#import "UIButton+WebCache.h"','#import "PRBaseHeader.h"','#import "PRBassCategory.h"','#import "MBProgressHUD+WL.h"','#import "PFVLoginStatue.h"','#import "TMRouter.h"'
 
