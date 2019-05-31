@@ -1,0 +1,29 @@
+//
+//  PrefixHeader.pch
+//  Project_Demo_OC
+//
+//  Created by wanglei on 2019/5/31.
+//  Copyright © 2019 PURANG. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
+
+#import "Masonry.h"
+#import "YYModel.h"
+#import "SDWebImageManager.h"
+#import "UIImageView+WebCache.h"
+#import "UIButton+WebCache.h"
+
+
+#import "PRBaseHeader.h"
+#import "PRBassCategory.h"
+#import "MBProgressHUD+WL.h"
+#import "PFVLoginStatue.h"
+#import "TMRouter.h"
+
+
+#endif /* PrefixHeader_pch */
