@@ -37,6 +37,7 @@
 		9B34038722A0B87C0070BE9B /* upload.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = upload.sh; sourceTree = "<group>"; };
 		9B34038822A0B87C0070BE9B /* FILE_LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = FILE_LICENSE; sourceTree = "<group>"; };
 		9B34038922A0B87C0070BE9B /* readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = readme.md; sourceTree = "<group>"; };
+		9BDF3C5222A516AF00CE8593 /* ProjectConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProjectConfig.h; sourceTree = "<group>"; };
 		C2CCDB82AC5C50C98C1F1093 /* Pods-Project_Demo_OC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Project_Demo_OC.release.xcconfig"; path = "Target Support Files/Pods-Project_Demo_OC/Pods-Project_Demo_OC.release.xcconfig"; sourceTree = "<group>"; };
 		D057C2C49B439BF7F153DA4F /* libPods-Project_Demo_OC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Project_Demo_OC.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -83,7 +84,7 @@
 		9B34036C22A0B62A0070BE9B /* Project_Demo_OC */ = {
 			isa = PBXGroup;
 			children = (
-				9B34038322A0B65B0070BE9B /* Project_Demo_OC */,
+				9BDF3C5022A5138700CE8593 /* Project_Demo_OC */,
 				9B34036D22A0B62A0070BE9B /* AppDelegate.h */,
 				9B34036E22A0B62A0070BE9B /* AppDelegate.m */,
 				9B34037022A0B62A0070BE9B /* ViewController.h */,
@@ -98,13 +99,6 @@
 			path = Project_Demo_OC;
 			sourceTree = "<group>";
 		};
-		9B34038322A0B65B0070BE9B /* Project_Demo_OC */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Project_Demo_OC;
-			sourceTree = "<group>";
-		};
 		9B34038522A0B8660070BE9B /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
@@ -114,6 +108,14 @@
 				9B34038722A0B87C0070BE9B /* upload.sh */,
 			);
 			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		9BDF3C5022A5138700CE8593 /* Project_Demo_OC */ = {
+			isa = PBXGroup;
+			children = (
+				9BDF3C5222A516AF00CE8593 /* ProjectConfig.h */,
+			);
+			path = Project_Demo_OC;
 			sourceTree = "<group>";
 		};
 		9E6AF473572A615F2B2CFCB6 /* Pods */ = {

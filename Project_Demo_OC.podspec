@@ -14,8 +14,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '8.0'
   s.source       = { :git => '__HTTPSRepo__', :tag => s.version.to_s }
 
-s.prefix_header_contents = '#import "Masonry.h"','#import "YYModel.h"','#import "SDWebImageManager.h"','#import "UIImageView+WebCache.h"','#import "UIButton+WebCache.h"','#import "PRBaseHeader.h"','#import "PRBassCategory.h"','#import "MBProgressHUD+WL.h"','#import "PFVLoginStatue.h"','#import "TMRouter.h"'
-
+  s.prefix_header_contents = '#import <Foundation/Foundation.h>', '#import <UIKit/UIKit.h>', '#import "ProjectConfig.h"'
 
   s.source_files  = 'Project_Demo_OC/Project_Demo_OC/**/*.{h,m,swift}'
 
