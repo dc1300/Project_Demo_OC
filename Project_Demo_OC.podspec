@@ -16,9 +16,9 @@ Pod::Spec.new do |s|
 
   s.prefix_header_contents = '#import <Foundation/Foundation.h>', '#import <UIKit/UIKit.h>', '#import "ProjectConfig.h"'
 
-  s.source_files  = 'Project_Demo_OC/Project_Demo_OC/**/*.{h,m,swift}'
+  s.public_header_files = 'Project_Demo_OC/Project_Demo_OC/**/ProjectModule.h'
 
-  # s.public_header_files = 'Classes/**/*.h'
+  s.source_files  = 'Project_Demo_OC/Project_Demo_OC/**/*.{h,m,swift}'
 
   s.resources  = ['Project_Demo_OC/Project_Demo_OC/**/*.{storyboard,xib,png,bundle}', 'Project_Demo_OC/Assets.xcassets']
 
