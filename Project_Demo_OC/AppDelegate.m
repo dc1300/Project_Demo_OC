@@ -7,7 +7,6 @@
 //
 
 #import "AppDelegate.h"
-#import "PFVLoginStatue.h"
 
 #import "ViewController.h"
 @interface AppDelegate ()
@@ -25,11 +24,6 @@
     
     UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:[ViewController new]];
     self.window.rootViewController = nav;
-    
-    
-    //通知(登录)
-    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(pushLoginNotification:) name:NEED_PUSH_LOGIN_NOTIFICATION object:nil];
-    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(pushLoginAlertNotification:) name:NEED_ALERT_LOGIN_NOTIFICATION object:nil];
     
     return YES;
 }
