@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
 
   s.homepage     = '__HomePage__'
   s.license      = { :type => 'MIT', :file => 'FILE_LICENSE' }
-  s.author       = 'daichen'
+  s.author       = 'wanglei'
   s.platform     = :ios, '8.0'
   s.source       = { :git => '__HTTPSRepo__', :tag => s.version.to_s }
 
@@ -32,6 +32,6 @@ Pod::Spec.new do |s|
 
   s.requires_arc = true
 
-  #s.dependency 'PRBaseDependTool'
+#s.dependency 'PRBaseDependTool'
 
 end

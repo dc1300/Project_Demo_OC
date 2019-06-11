@@ -36,6 +36,6 @@ git commit -m "update to repo tag:${version}"
 git tag $version
 git push
 git push --tags
-pod repo push PRSpec Project_Demo_OC.podspec --verbose --allow-warnings --use-libraries --use-modular-headers
+pod repo push DCSpec Project_Demo_OC.podspec --verbose --allow-warnings --use-libraries --use-modular-headers
 say "finished"
 echo "finished"
